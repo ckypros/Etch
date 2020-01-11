@@ -13,7 +13,7 @@ function createGrid(gridSize) {
     for (let i = 0; i < gridSize * gridSize; i++) {
         let gridCell = document.createElement("div");
         gridCell.classList = "grid-cell";
-        gridCell.innerText = i;
+        //gridCell.innerText = i;
         gridCell.addEventListener('mouseenter', function() {
             gridCell.style.backgroundColor = "black";
         });
