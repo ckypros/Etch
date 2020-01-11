@@ -1,0 +1,21 @@
+body {
+    ;
+}
+#container {
+    display: grid;
+    height: 800px;
+    width: 800px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+#grid {
+    display: grid; 
+}
+
+.grid-cell {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
