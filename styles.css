@@ -17,7 +17,7 @@ h1 {
     margin-top: 20px;
 }
 
-#container {
+#grid {
     display: grid;
     background-color: whitesmoke;
     height: 600px;
@@ -25,17 +25,31 @@ h1 {
     border-width: 3px;
     border-style: solid;
     border-color: black;
-    box-shadow: 10px 10px 5px grey;
-    margin-left: auto;
-    margin-right: auto;
+    box-shadow: 5px 2px 22px 7px #000000;
+    margin: 0 auto;
+    
 }
 
-#grid {
-    display: grid; 
+#container {
+    text-align: center;
+    width: 100%;
 }
 
 .grid-cell {
     border-width: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(223, 223, 223);
+}
+
+.button {
+    width: 120px;
+    color: rgb(48, 9, 9);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 4px rgb(31, 31, 31);
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
